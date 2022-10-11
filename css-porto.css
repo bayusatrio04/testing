@@ -1,0 +1,171 @@
+
+    body{
+        padding: 0;
+        margin: 0;
+        background: rgb(251, 251, 251);
+    }
+    
+    .nav-link{
+        color: #333 ;
+        font-weight: 500;
+        font-family: sans-serif;
+    }
+    .btn2{
+        border-top-left-radius: 5vh;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 5vh;
+        width: 15vh;
+        height: 3.5vh;
+        font-size: 1.5vh;
+        opacity:65%;
+        
+    }
+    .h1-main{
+        font-size: 7vh;
+        letter-spacing: 0.4vh;
+    }
+    .p-main{
+        font-weight: 700;
+        font-family: sans-serif;
+        letter-spacing: 0.3vh;
+        font-style: italic;
+        color:#6a6868;    
+    }
+    .my-info p{
+        font-size: small;
+    }
+    .img-2{
+        width: 50vh;
+    }
+    .col h4{
+        letter-spacing: 0.1em;
+    }
+    .p-content-2{
+        font-size: 0.8em;
+        color: #cacaca transparent;
+        letter-spacing: 0.1em;
+    }
+    .col-sm-6 h3{
+        letter-spacing: 0.1em;
+    }
+    .bar {
+        background-color: rgb(229, 226, 226);
+        width: 100%;
+        border-radius: 15px;
+    }
+  
+    .skill {
+        background-color: rgb(117, 170, 255);
+        color: white;
+        text-align: right;
+        font-size: 0.7em;
+        border-radius: 15px;
+    }
+  
+    .javascript {
+        width: 47%;
+    }
+  
+    .css {
+        width: 59%;
+    }
+    .html{
+        width: 93%;
+    }
+    .php{
+        width: 39%;
+    }
+    .laravel{
+        width: 78%;
+    }
+    .circle-wrap {
+        width: 150px;
+        height: 150px;
+        background: #fefcff;
+        border-radius: 50%;
+        border: 1px solid #cdcbd0;
+      }
+      
+      .circle-wrap .circle .mask,
+      .circle-wrap .circle .fill {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        border-radius: 50%;
+      }
+      
+      .circle-wrap .circle .mask {
+        clip: rect(0px, 150px, 150px, 75px);
+      }
+      
+      .circle-wrap .inside-circle {
+        width: 122px;
+        height: 122px;
+        border-radius: 50%;
+        background: #d2eaf1;
+        line-height: 120px;
+        text-align: center;
+        margin-top: 14px;
+        margin-left: 14px;
+        color: #1e51dc;
+        position: absolute;
+        z-index: 100;
+        font-weight: 700;
+        font-size: 2em;
+      }
+      
+      /* color animation */
+      
+      /* 3rd progress bar */
+      .mask .fill {
+        clip: rect(0px, 75px, 150px, 0px);
+        background-color: #227ded;
+      }
+      
+      .mask.full,
+      .circle .fill {
+        animation: fill ease-in-out 3s;
+        transform: rotate(135deg);
+      }
+      
+      @keyframes fill{
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(135deg);
+        }
+      }
+      .box-content-4{
+        position: flex;
+        background-color: none;
+        height: 22em;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        box-shadow:0 1rem 3rem rgba(0,0,0,.175)!important;
+        border-radius:20px;
+        
+      }
+
+      .bord-1{
+        background-color: none;
+        border: 1px solid skyblue;
+        width: 10em;
+        height: 10em;
+        border-radius: 100%;
+        margin: auto;
+    
+      }
+      .main-solid{
+        font-size:2em;
+        margin-left: 2em;
+        padding-top: 1.8em;
+        opacity: 80%;
+      }
+
+      .caption{
+        text-align: center;
+        padding-top: 2em;
+      }
